@@ -53,7 +53,7 @@ export class Client {
     const template = await this.payloadTemplate();
     template.attachments[0].color = 'good';
     template.text += this.mentionText(this.with.mention, Success);
-    template.text += ':white_check_mark: Succeeded GitHub Actions\n';
+    template.text += ':heavy_check_mark: Succeeded GitHub Actions\n';
     template.text += text;
 
     return template;
