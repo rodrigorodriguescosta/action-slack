@@ -55,7 +55,6 @@ export class Client {
     template.text += this.mentionText(this.with.mention, Success);
     template.text += ':heavy_check_mark: Succeeded GitHub Actions\n';
     template.text += text;
-
     return template;
   }
 
